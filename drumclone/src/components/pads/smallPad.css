@@ -1,0 +1,30 @@
+.small__outline {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: linear-gradient(135deg,  #f0a500,  #d8a945 30%,  #dbbb75 50%,  #e9d3a5 85%);
+  /* background: linear-gradient(125deg,  #C2A77C,  #FBF3DF 40%, #C2A77C 70% ); */
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  
+
+}
+
+.middle__black {
+  width: 35px;
+  height: 35px;
+  background: black;
+  border-radius: 50%;
+  text-align: center;
+}
+
+
+.small__outline:hover {
+  /* box-shadow: 2px 2px 5px goldenrod; */
+  background: linear-gradient(125deg,  #C2A77C,  #FBF3DF 40%, #C2A77C 70% );
+  /* background: linear-gradient(135deg,  #f0a500,  #d8a945 30%,  #dbbb75 50%,  #e9d3a5 85%); */
+}

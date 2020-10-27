@@ -1,0 +1,85 @@
+.flex {
+  display: flex;
+}
+
+#drum-machine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.display__div {
+  color: goldenrod;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.display__div > p {
+  font-size: 20px;
+}
+
+.display__div__image {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.drum__section {
+  display: flex;
+  height: 100%;
+  padding: 10px 20px;
+  background:  linear-gradient(
+    rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.7)
+  ), url("https://img2.iwascoding.com/0/paid/2018/10/15/9A/81323AA0B2E2013633A5543D7EF8F2BE.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.first__section, .third__section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  
+}
+
+.third__section {
+  align-items: flex-start;
+}
+
+.second__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.second__up, .second__down {
+  align-items: center;
+  justify-content: space-around;
+  width: 400px;
+}
+
+.second__up {
+  margin-top: 50px;
+}
+
+.img__div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.img__div > img {
+  max-width: 100px;
+  height: auto;
+}
+

@@ -1,0 +1,160 @@
+.alarm {
+
+  width: 550px;
+  border: 15px solid #d92027;
+  height: 550px;
+  border-radius: 50%;
+  background: #ffb367;
+  color: rgba(44, 62, 80, 1);
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+
+}
+
+.absolute__left, .absolute__right {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background:#FFB367;
+  border-radius: 50%;
+  margin-top: -30px;
+  border: 8px solid #d92027;
+
+}
+
+.absolute__left > span {
+  width: 20px;
+  height: 20px;
+  background: #D92027;
+  border-radius: 50%;
+}
+.absolute__right > span {
+  width: 20px;
+  height: 20px;
+  background: #D92027;
+  border-radius: 50%;
+}
+.absolute__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+}
+.absolute__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  right: 0;
+}
+
+.alarm__subsection {
+  margin: 10px;
+}
+
+.alarm__title {
+  border: none;
+  border: 1px solid #d92027;
+  padding: 12px;
+  /* height: 40px; */
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+
+.alarm__timer {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  width: 200px;
+  height: 120px;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.length__control {
+
+  display: flex;
+  justify-content: space-evenly;
+  width: 450px;
+  font-size: 20px;
+  height: 150px;
+  align-items: center;
+  border: none;
+
+}
+
+
+.control__button {
+  width: 32px;
+  cursor: pointer;
+  height: 32px;
+  margin: 8px;
+  border: none;
+  outline: none;
+
+  color: #2C3E50;
+  border-radius: 3px;
+  background: none;
+}
+
+.control__buttons {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.control__buttons__pause__div {
+  padding: 7px;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.control__buttons >div:hover {
+  background: #d92027;
+  color: lightgray;
+  border: none;
+  transition: 200ms ease-out;
+}
+
+.control__button:hover {
+  background: #d92027;
+  color: lightgray;
+  border: none;
+  transition: 200ms ease-out;
+}
+
+
+#time-left {
+  font-size: 40px;
+  margin-top: 8px;
+  width: 180px;
+}
+
+
+#reset {
+  width: 80px;
+  display: flex;
+  padding: 7px;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,25 @@
+
+.mainn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.main__text__div {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 10px 0px;
+}
+
+#text {
+  padding: 10px;
+}
+#author {
+  display: flex;
+  /* align-items: center; */
+  justify-content: flex-end;
+  margin: 3px;
+}

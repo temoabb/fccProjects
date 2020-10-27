@@ -1,0 +1,28 @@
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* flex-direction: row; */
+}
+
+
+.main__links {
+  /* border: 1px solid black; */
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.quote__button {
+  width: 25%;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.quote__button:hover {
+  background: lightgray;
+}

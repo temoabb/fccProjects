@@ -1,0 +1,64 @@
+.big__outline {
+  width: 220px;
+  height: 220px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: relative;
+  margin: 20px 0 5px 5px;
+}
+
+
+.big__inline {
+  border-radius: 50%;
+  width: 215px;
+  height: 215px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #E2DCD6;
+  border: 3px solid #B78E65;
+}
+
+.horisontal {
+  position: absolute;
+  background: linear-gradient(125deg,  #A0815B,  #A49787 5%,  #A0815B 60%, #968774 80% );
+  top: calc(50% - 10px);
+  width: 100%;
+  height: 20px;
+  z-index: 1;
+}
+
+.vertical {
+  position: absolute;
+  background: linear-gradient(125deg,  #D7C3A6,  #A49787 5%,  #A0815B 60%, #968774 80% );
+  height: 100%;
+  left: calc(50% - 10px);
+  width: 20px;
+  z-index: 1;
+}
+
+.main {
+  background: linear-gradient(125deg,  #D7C3A6,  #A49787 5%,  #A0815B 60%, #968774 80% );
+   border-radius: 50%;
+   width: 180px;
+   height: 180px;
+   z-index: 2;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 45px;
+   color: white;
+
+}
+
+
+.main:hover {
+  background: #E2DCD6;
+  color: black;
+  border: 1px dotted  #B78E65;
+  cursor: pointer;
+}

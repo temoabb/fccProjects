@@ -1,0 +1,9 @@
+.App {
+  background:rgba(44, 62, 80, 1);
+  width: 100%;
+  /* opacity: 0.7; */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

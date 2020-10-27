@@ -1,0 +1,11 @@
+.App {
+  background: linear-gradient(45deg, #2b5876, #4e4376 50%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* #de6262 → #ffb88c */
+
+/* #2b5876 → #4e4376 */
